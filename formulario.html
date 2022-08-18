@@ -7,14 +7,17 @@
     <Body>
         <h1>Formulario 1</h1>
         
-        <form>
+        <form action="registro-formulario.html"
+        method="post">
             <label>Nombre:</label>
             <input type="text"
-             maxlength="5">
+             maxlength="5"
+             name="USERNAME">
             <label>password:</label>
             <input type="password" 
             size="5" 
-            maxlength="10">
+            maxlength="10"
+            name="PASSWORD">
             <input type="submit" value="Enviar">
         </form>
   
@@ -22,7 +25,7 @@
 
         <h1>Formulario 2</h1>
              
-        <form>
+        <form action="registrar-formulario.html">
             <label>Opcion A</label>
             <input type="radio"
             value="A"
@@ -31,6 +34,7 @@
             <input type="radio" 
             value="B" 
             name="Opciones">
+            <input type="submit" value="Enviar">
             
             <br>
 
@@ -50,6 +54,61 @@
         <label>ribergay</label>
 
         <br>
+
+
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        Nombre de la persona
+                    </td>
+
+                    <td>
+                        <input name="name" 
+                        type="text">
+                    </td>
+
+                </tr>
+
+                <br>
+
+                <tr>
+                    <td>
+                        Fecha de agosto
+                    </td>
+
+                    <td>
+                        <input name="nombre" 
+                        type="date"
+                        min="2022-08-01"
+                        max="2022-08-31">
+                    </td>
+
+                    <br>
+
+                    <tr>
+                        <td>
+                            Edad 
+                        </td>
+    
+                        <td>
+                            <input name="name" 
+                            type="number"
+                            min="1"
+                            max="15"
+                            step="2">
+                        </td>
+                        
+                    </tr>
+                    
+                </tr>
+
+
+
+            </table>
+        </form>
+
+        <a href="index.html">Volver a index</a>
         
     </Body>
 
