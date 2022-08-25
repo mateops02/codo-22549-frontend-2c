@@ -1,0 +1,21 @@
+p {font-size: 30px;
+    font-family: 'Roboto', sans-serif;}
+
+* {font-family: 'Roboto', sans-serif}
+
+main { background-color: #002288;}
+
+section {background-color: violet;}
+
+main .htmlsape { background-color: aqua;}
+
+main section.htmlsape {background-color: red !important;}
+
+#htmlsape { background-color: tan;}
+
+#htmlid {background-color: burlywood;
+width: 300px;
+height: 150px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;}
