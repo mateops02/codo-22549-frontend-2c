@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p > strong {
+            color: red;
+        }
+        div > img {
+            width: 700px;
+        }
+
+        div > p {
+            font-size: 70px;
+        }
+        div.div1 p {
+            font-size: 90px;
+        }
+        h1 + p {
+            font-weight: bolder;
+        }
+        h2 ~ p {
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <p>
+        selector <strong>PADRE</strong> e hijo
+    </p>
+
+
+    <p>
+        texto <strong>texto strong</strong> sigue el texto xd
+    </p>
+
+    <div class="div1">
+        <img src="./1144x638_boca-festejo-425408-184448.jpg">
+        <p>parrafo</p>
+        <p>parrafo</p>
+    </div>
+
+    <!---hermanos adyacentes-->
+
+    <div>
+        <h1>Hermanos adyacentes</h1>
+        <p>texto 1</p>
+        <p>texto 2</p>
+        <p>texto 3</p>
+    </div>
+
+    <div>
+        <h2>Hermanos generales</h2>
+        <p>bro 1</p>
+        <p>bro 2</p>
+        <p>bro 3</p>
+    </div>
+    
+</body>
+</html>
