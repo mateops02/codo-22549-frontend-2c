@@ -24,7 +24,88 @@
         }
         h2 ~ p {
             font-weight: 600;
+            background-color: aqua;
         }
+        a:visited {
+            color: brown;
+        }
+        a:active {
+            color: yellow;
+        }
+        h1:hover {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        img:hover {
+            width: 1000px;
+            border: 20px solid blue;
+        }
+        input:checked {
+            margin: 10px;
+        }
+
+        div.primerhijo {
+            text-align: center;
+        }
+
+        div.primerhijo p {
+            display: inline;
+        }
+
+        div.primerhijo p:first-child {
+            color: violet;
+            font-size: 100px;
+            font-weight: 500;
+        }
+
+        div.primerhijo p:last-child {
+            color: blue;
+            font-size: 50px;
+            font-weight: 25;
+        }
+
+        ol li:nth-child(even) {
+            color: tomato;
+        }
+
+        ul li:nth-child(3n+1) {
+            color: rebeccapurple;
+        }
+
+        table {
+            border: 1px solid red;
+            border-spacing: 0px;
+            width: 500px;
+            padding: 5px;
+        }
+
+        table tr:first-child {
+            background-color: cadetblue; 
+            text-transform: uppercase;  
+        }
+
+        table tr:nth-child(2n+3) {
+            background-color: aquamarine;
+        }
+
+        
+        table tr:nth-child(2n) {
+          background-color: blueviolet;
+        }
+
+        table tr {
+            text-align: center;
+            height: 30px;
+        }
+
+        table tr:hover {
+            font-size: 1.2em;
+            font-weight: bolder;
+            color: wheat;
+        }
+
+
+
+
     </style>
 </head>
 <body>
@@ -59,6 +140,70 @@
         <p>bro 2</p>
         <p>bro 3</p>
     </div>
+
+    <ul>
+        <li>
+            <a href="http://www.google.com.ar">Google</a>
+        </li>
+        <li>
+            <a href="http://www.facebook.com.ar">Facebook</a>
+        </li>
+        <input type="checkbox">
+    </ul>
+
+    <div class="primerhijo">
+
+        <p> P1 </p>
+        <p> P2 </p>
+        <p> P3 </p>
+        <p> P4 </p>
+
+    </div>
+
+    <ol>
+        <li>Primero</li>
+        <li>Segundo</li>
+        <li>Tercero</li>   
+        <li>Cuarto</li>   
+        <li>Quinto</li>
+    </ol>
+
+    <ul>
+        <li>Primero</li>
+        <li>Segundo</li>
+        <li>Tercero</li>   
+        <li>Cuarto</li>   
+        <li>Quinto</li>
+    </ul>
     
+    <table>
+        <tr>
+            <th>
+                Col 1
+            </th>
+
+            <th>
+                Col 2
+            </th>
+        </tr>
+
+        <tr>
+            <td>Fila 1 Col 1</td>
+            <td> Fila 1 Col 2</td>
+        </tr>
+
+        <tr>
+            <td>Fila 2 Col 1</td>
+            <td> Fila 2 Col 2</td>
+        </tr>
+        <tr>
+            <td>Fila 3 Col 1</td>
+            <td> Fila 3 Col 2</td>
+        </tr>
+        <tr>
+            <td>Fila 4 Col 1</td>
+            <td> Fila 4 Col 2</td>
+        </tr>
+    </table>
 </body>
 </html>
