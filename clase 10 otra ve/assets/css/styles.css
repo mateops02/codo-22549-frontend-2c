@@ -1,0 +1,107 @@
+.container {
+    background-color: aqua;
+    padding: 5px;
+}
+
+.container div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+}
+
+.container-flex {
+    justify-content: center;
+    display: flex;
+    background-color: blueviolet;
+    padding: 5px;
+    flex-direction: row-reverse;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 250px;
+    align-items: center;
+}
+
+.container-flex div {
+    margin: 3px;
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    text-align: center;
+}
+
+@media screen and (max-width:600px)  {
+    .container-flex {flex-direction: column;}
+}
+
+.flex-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section img {
+    width: 40%;
+}
+
+section {
+    display: flex;
+    height: 650px;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section:first-child {
+   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+section:nth-child(2) {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+section:nth-child(3) {
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-text {
+    margin: 5px;
+    padding: 10px;
+}
+
+section a {
+    display: flex;
+    width: 90px;
+    height: 40px;
+    background-color: tomato;
+    color: bisque;
+    text-decoration: wavy;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+    font-size: large;
+}
+
+section a:hover {
+    font-weight: 900;
+}
+
+section a:active {
+    opacity: 0.5;
+}
+
+@media screen and (max-width:1000px) {
+    section {
+        flex-direction: column;
+    }
+}
