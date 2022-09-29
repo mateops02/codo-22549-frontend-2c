@@ -35,9 +35,9 @@ function calcularnotas () {
     console.log(minimo);
     console.log(promedio);
 
-    document.getElementById("menor").value = minimo
-    document.getElementById("mayor").value = maximo
-    document.getElementById("promedio").value = promedio
+    document.getElementById("menor").value - minimo
+    document.getElementById("mayor").value - maximo
+    document.getElementById("promedio").value - promedio
 
    
 
