@@ -1,0 +1,10 @@
+.calculadora-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.calculadora-container numeros-container .calculadora-container-operaciones {
+    width: 50px;
+    background-color: aquamarine;
+}
