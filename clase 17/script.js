@@ -96,6 +96,8 @@ console.log('nombres:',nombres);
 const nombresMap = alumnos.map (alumno => alumno.nombre);
 console.log ('nombresmap', nombresMap) 
 
-//reduce
+//reduce: recorre elemento a elemento internamente,
 const sumaReduced = alumnos.reduce ((acum,actual) => acum + actual.edad ,0);
 console.log ('sumaReduced', sumaReduced);
+
+//filter - some - every - map - reduce : las funciones que vimos hoy, hay que repasarlas.
